@@ -1,0 +1,16 @@
+.slogan{
+  background:url(../../assets/image.png);
+  padding: 150px;
+}
+
+.slogan-header{
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 131px;
+  color:white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

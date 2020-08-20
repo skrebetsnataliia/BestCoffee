@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "BestCoffe": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "BestCoffe"
+    }
+  },
+  "defaultProject": "BestCoffe",
+  "cli": {
+    "analytics": "751e08fb-71ae-443f-924b-8ccff819faa7"
+  }
 }
