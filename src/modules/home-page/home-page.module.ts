@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from 'src/components/header/header.component';
 import { SloganComponent } from 'src/components/slogan/slogan.component';
 import { HomePageComponent } from 'src/components/home-page/home-page.component';
 import { Route, RouterModule } from '@angular/router';
+import { InfoItemComponent } from 'src/components/info-item/info-item.component';
 
 const routes: Route[] = [
   {
@@ -13,10 +13,10 @@ const routes: Route[] = [
 ];
 
 @NgModule({
-  declarations: [SloganComponent, HomePageComponent],
+  declarations: [SloganComponent, HomePageComponent, InfoItemComponent],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes),
+    RouterModule.forChild(routes)
   ]
 })
 export class HomePageModule { }

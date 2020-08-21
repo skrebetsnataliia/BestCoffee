@@ -1,0 +1,16 @@
+.icon-img{
+  font-weight: 400px;
+}
+.icon{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 49px;
+  color: #593520;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+

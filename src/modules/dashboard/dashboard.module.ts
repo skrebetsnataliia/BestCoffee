@@ -3,10 +3,8 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from 'src/components/header/header.component';
 import { DashboardComponent } from 'src/components/dashboard/dashboard.component';
 import { Route, RouterModule } from '@angular/router';
-import { HomePageModule } from '../home-page/home-page.module';
 import { LocationsModule } from '../locations/locations.module';
-
-
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 const routes: Route[] = [
   {
@@ -20,7 +18,8 @@ const routes: Route[] = [
   imports: [
     CommonModule,
     RouterModule.forChild(routes),
-    LocationsModule
+    LocationsModule,
+    MatToolbarModule
   ]
 })
 export class DashboardModule { }
